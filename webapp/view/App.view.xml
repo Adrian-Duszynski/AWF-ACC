@@ -1,0 +1,36 @@
+<mvc:View controllerName="accmaker.controller.main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m" xmlns:tnt="sap.tnt">
+	<App>
+		<pages>
+			<Page title="{i18n>title}" showHeader="true">
+				
+				<customHeader>
+					<OverflowToolbar class="headerBar" design="Transparent" style="Clear">
+						<Button class="statusBox" icon="./images/status.svg"/>
+						<Button icon="./images/Discord.svg"/>
+						<Button icon="./images/Facebook.svg"/>
+						<Button icon="./images/Wikipedia.svg"/>
+						<Button icon="./images/Downloads.svg"/>
+						<Button icon="./images/Forum.svg"/>
+					</OverflowToolbar>
+				</customHeader>
+				<content>
+					<VBox renderType="Bare" alignItems="Center">
+						<Image src="./images/Group.svg" class="leftCloud"/>
+						<Image src="./images/Frame-9946.png" class="mainDBLImage"/>
+						<Image src="./images/Group.svg" class="rightCloud"/></VBox>
+					<IconTabHeader class="menu" mode="Inline">
+						<items>
+							<IconTabFilter icon="./images/News.svg" text="News" key="News"/>
+							<IconTabFilter icon="./images/Highscores.svg" text="Media" key="Media"/>
+							<IconTabFilter icon="./images/Help.svg" text="Help" key="Help"/>
+							<IconTabFilter icon="./images/Rules.svg" text="Rules" key="Rules"/>
+							<IconTabFilter icon="./images/Premium.svg" text="Premium" key="Premium"/>
+							<IconTabFilter icon="./images/Account.svg" text="Account" key="Account"/>
+						</items>
+					</IconTabHeader>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

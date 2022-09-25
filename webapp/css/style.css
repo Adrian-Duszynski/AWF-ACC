@@ -1,0 +1,131 @@
+/* Enter your custom styles here */
+
+@font-face {
+    font-family: 'Pixellari';
+    src: url('Pixellari.ttf') format('truetype');
+}
+
+.leftCloud {
+    position: absolute;
+    left: -11.2%;
+    right: 83.19%;
+    top: 5.45%;
+    bottom: 88.62%;
+}
+
+.mainDBLImage {}
+
+.rightCloud {
+    position: absolute;
+    left: 88.06%;
+    right: -16.08%;
+    top: 7.17%;
+    bottom: 86.9%;
+}
+
+[class^="sapMITBHead"],
+[class*=" sapMITBHead"] {
+    font-family: 'Pixellari' !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    /*padding: 0px 32px !important;*/
+    /*gap: 2px !important;*/
+    /*position: absolute !important;*/
+    /*width: 1597px !important;*/
+    /*height: 60px !important;*/
+    /* Raffia */
+    background: #F3E0C9 !important;
+    /* Donkey-brown */
+    border: 2px solid #9E8A6E !important;
+}
+
+.sapUiGlobalBackgroundColor {
+    background: #FFEFDB;
+}
+
+[class^="sapMITBItem"],
+[class*=" sapMITBItem"] {
+    /* Pix 24 */
+    font-family: 'Pixellari' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 24px !important;
+    line-height: 26px !important;
+    display: flex !important;
+    align-items: center !important;
+    text-align: center !important;
+    padding: 12px 24px !important;
+    /* Mikado */
+    color: #3C2C15 !important;
+    /* Inside auto layout */
+    flex: none !important;
+    order: 1 !important;
+    flex-grow: 0 !important;
+}
+
+.sapMITH {
+    padding: 0 0 !important;
+}
+
+.sapMShellBrandingBar {
+    height: 0px;
+}
+
+[class^="sapMITBSelected"],
+[class*=" sapMITBSelected"] {
+    /* Pix 24 */
+    font-family: 'Pixellari' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 24px !important;
+    line-height: 26px !important;
+    display: flex !important;
+    align-items: center !important;
+    text-align: center !important;
+    /* Mikado */
+    color: #3C2C15 !important;
+    /* Inside auto layout */
+    flex: none !important;
+    order: 1 !important;
+    flex-grow: 0 !important;
+    flex-direction: row !important;
+    padding: 10px 22px !important;
+    /*gap: 4px !important;*/
+    /* Peach */
+    background: #FFEFDB !important;
+    /* Donkey-brown */
+    border-left: 2px solid #9E8A6E !important;
+    border-right: 2px solid #9E8A6E !important;
+}
+
+.sapMITBText {
+    color: #3C2C15 !important;
+    outline: none !important;
+}
+
+.sapMITBText::after {
+    border: 0 dotted #000 !important;
+}
+
+.sapMITBContentArrow {
+    border-bottom: 0px #9E8A6E !important;
+}
+
+.statusBox {
+    position: absolute;
+    display: flex;
+    height: 20%;
+    left: 5%;
+    top: -0.6%;
+}
+
+.headerBar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    justify-content: center;
+    height: 96px;
+}
