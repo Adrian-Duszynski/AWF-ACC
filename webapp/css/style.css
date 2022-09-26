@@ -116,9 +116,8 @@
 .statusBox {
     position: absolute;
     display: flex;
-    height: 20%;
     left: 5%;
-    top: -0.6%;
+    z-index: 1;
 }
 
 .headerBar {
@@ -128,4 +127,7 @@
     padding: 0px;
     justify-content: center;
     height: 96px;
+}
+.headerButtons {
+    height: 10%;
 }
